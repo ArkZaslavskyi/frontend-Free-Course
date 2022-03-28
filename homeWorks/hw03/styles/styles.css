@@ -1,0 +1,159 @@
+/* COMMON */
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #ffffff;
+    background-color: #131313;
+    background-image: url('../img/wall.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header {
+    border-bottom: 1px solid #272727;
+}
+.container {
+    width: 1146px;
+    margin: 0 auto;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Caveat';
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #1acd4c;
+    padding: 10px 0;
+}
+
+.card {
+    position: relative;
+    margin-left: 24px;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -12px;
+    width: 1px;
+    height: 100%;
+    background-color: #272727;
+}
+
+.nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav__item + .nav__item {
+    margin-left: 38px;
+}
+
+.nav__link {
+    font-weight: 700;
+    font-size: 16px;
+    color: inherit;
+}
+
+.nav__link--current {
+    color: #272727;
+    text-decoration: line-through;
+}
+
+/* MAIN */
+.main {
+    margin-top: 90px;
+}
+
+.caption {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+/* TABLE */
+.table {
+    margin-top: 31px;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.thead {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+.thead th {
+    width: 25%;
+    padding: 0 26px;
+}
+.tbody {
+    border: 1px solid #272727;
+}
+.tbody td {
+    padding: 17px 26px;
+}
+
+.tbody tr {
+    border-bottom: 1px solid #272727;
+}
+
+/* PAGES */
+.pages {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pages-list {
+    display: flex;
+    margin: 0 49px;
+}
+
+.pages-list__link {
+    display: block;
+    padding: 9px 18px;
+    color: #ffffff;
+}
+
+.pages-list__link-current {
+    color: #4f4f4f;
+}

@@ -1,0 +1,11 @@
+body > div > p {
+    color: green;
+}
+
+body div p + h4 {
+    color: blue;
+}
+
+body div + p {
+    color: blue;
+}
