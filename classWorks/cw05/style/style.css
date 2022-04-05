@@ -1,0 +1,53 @@
+.container {
+    /* overflow: visible; */
+    height: 100px;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 0;
+    float: left;
+    transition: transform 0.5s;
+}
+
+.item:nth-child(1) {
+    background-color: blueviolet;
+}
+
+.item:nth-child(2) {
+    background-color: burlywood;
+}
+
+.item:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.item:nth-child(4) {
+    background-color: cornflowerblue;
+}
+
+.item:nth-child(5) {
+    background-color: darkgoldenrod;
+}
+
+.item:nth-child(1):hover {
+    transform: translateY(10px);
+}
+
+.item:nth-child(2):hover {
+    transform: translateY(20px);
+}
+
+.item:nth-child(3):hover {
+    transform: translateY(30px);
+}
+
+.item:nth-child(4):hover {
+    transform: translateY(40px);
+}
+
+.item:nth-child(5):hover {
+    transform: translateY(50px);
+}
